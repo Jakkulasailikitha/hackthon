@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:linear-gradient(120deg,#2980b9,#8e44ad);
+
+}
+.container{
+    width:100%;
+    height:100%;
+    background-color  :MediumSlateBlue;
+    font-family:Tomato;
+
+
+
+}
+.main{
+    width:980px;
+    margin:auto;
+    height:658px;
+    display:flex;
+    padding-top:100px;
+}
+.main-left{
+    width:580px;
+    padding:20px;
+
+}
+.main-right{
+    width:400px;
+    height:450px;
+
+    
+}
+.facebook-logo{
+    font-size:55px ;
+    font-weight: bold;
+    margin-top: 100px;
+    color: rgba(248, 249, 252, 0.99);
+
+}
+.facebook-status{
+    font-size: 48px;
+    margin-top: 10px;
+    color: rgb(19, 19, 18);
+
+}
+.main-right-login{
+    padding: 19px;
+    background-color: aliceblue;
+    border-radius:6px;
+    box-shadow:0 2px 4px 
+    rgba(0,0,0,0.1) 0 8px 16px
+    rgba(0,0,0,0.1);
+}
+.main-right-email{
+    
+    width: 100%;
+    margin-top:10px;
+}
+
+
+.main-right-email input[type=email]{
+    
+    width: 320px;
+    padding:10px ;
+    font-size: 20px;
+    border: none;
+    border:3px solid#ccc;
+    border-radius: 8px;
+}
+main-right-password{
+    width: 100%;
+    margin-top: 20px;
+}
+.main-right-password input[type=password]{
+    width: 320px;
+    padding:10px ; 
+     font-size: 20px; 
+    border: none;
+    border:3px solid#ccc;
+    border-radius: 5px;
+}
+.main-right-button{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.main-right-button button{
+    width: 100%;
+    padding: 9px;
+    font-size: 17px;
+    border: none;
+    background-color:#1877f2 ;
+    color: white;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+.main-right-link{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.main-right-link a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #1877f2;
+
+}
+.main-right-line{
+    width: 100%;
+    height: 1px;
+    margin-top:20px;
+    border: 1px solid #ccc ;
+}
+.main-right-account{
+    width:100% ;
+    margin-top: 20px;
+
+
+}
+.main-right-account button{
+    width:220px;
+    margin:auto;
+    margin-top:20px;
+
+}
+
+.main-right-account button {
+    width: 320px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-color:#42b72a;
+    border-radius:20px;
+    color:white;
+    cursor:pointer;
+    text-align: center;
+}
+.footer{
+    background-color: white;
+
+}
+
+.footer-link{
+    width: 980px;
+    margin:auto;
+    padding:20px;
+    
+}
+.footer-link a{
+    text-decoration: none;
+    padding: 2px;
+    color: #8a8d91;
+}
+.footer-2022{
+    width: 980px;
+    margin:auto;
+    padding:20px;
+    
+}
+.footer-2022 a{
+    text-decoration: none;
+    padding: 2px;
+    color: #8a8d91;
+}
+.modal{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(250,250,250,0.8);
+    
+
+}

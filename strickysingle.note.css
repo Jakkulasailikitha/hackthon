@@ -1,0 +1,154 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Arial,Arial, Helvetica, sans-serif;
+    font-size:100%;
+    margin:3cm;
+    background:rgb(59,59,59);
+    color:blue;
+}
+h2,p{
+    font-size:20px;
+    font-weight:normal;
+    transform: rotate(7deg);
+}
+ul,li{
+    list-style:none;
+
+}
+ul{
+    overflow:hidden;
+    padding:3cm; 
+
+
+}
+ul li a{
+     text-decoration: none;
+     color:rgb(41, 88, 88);
+     background:rgb(57, 142, 136);
+     display:block;
+     height:160px;
+     width:160px;
+     padding: 16px;
+     box-shadow:
+    
+    
+    
+     /* margin-top:20px;
+     box-shadow: 5px 5px 7px rbga(33,33,33,.7);
+     transition:transform.15s linear;
+    transform: rotate(7deg); */
+
+
+/* 
+
+
+
+ul li{
+    margin:16px;
+    float:left;
+
+}
+u1 li h2{
+    font-size:140%;
+    font-weight:bold;
+    padding-bottom:10px;
+    transform: rotate(4deg);
+
+}
+ul li p{
+    font-family:cursive;
+    font-size:180%;
+
+}
+ul li a{
+    transform: rotate(-6deg);
+
+}
+ul li:nth-child(odd)a{
+    transform: rotate(4deg);
+    top:5px;
+    background:pink;
+    transform: rotate(7deg);
+
+}
+ul li a:hover,ul li a:focus{
+    box-shadow:10px 10 px 7px rbga(0,0,0,.7);
+    position: relative;
+    z-index:5;
+    transform: rotate(3d);
+} */ 
+body{
+    margin:0;
+    padding:0;
+    background:rgb(6,128,185);
+
+}
+.note{
+    position:absolute;
+    background:#312;
+    width:300px;
+    height:50px;
+    top:20%;
+    left:40%
+}
+.area{
+    position:absolute;
+    top:100%;
+    left:0;
+    width:300px;
+    height:0px;
+    overflow:hidden;
+    outline:none;
+    border:none;
+
+
+}
+textarea{
+    position: relative;
+    min-width: 300px;
+    height:200px;
+    background:#fff;
+    color:#000;
+    font-size:arial;
+    outline:none;
+    letter-spacing:1px;
+}
+h1{
+    position:absolute;
+    color:#fff;
+    font-family:Forte;
+    top:-15px;
+    left:5px;
+
+}
+i{
+    position:absolute;
+    top:24%;
+    left:88%;
+    font-size:25px;
+    color:#fff;
+    transform:rotate(45deg);
+}
+#click:checked~i{
+    transform:rotate(270deg);
+    transition:-5s;
+
+}
+#click:checked~.area{
+    height:200px;
+    transition:5s;
+
+
+}
+#click{
+    position:absolute;
+    width:50px;
+    height:40px;
+    right:0;
+    opacity:0;
+    z-index:1;
+
+}
